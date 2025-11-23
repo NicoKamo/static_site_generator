@@ -13,7 +13,7 @@ template_path = "./template.html"
 dir_path_content = "./content"
 basepath = "/"
 if len(sys.argv)>1:
-    basepath = sys.argv
+    basepath = sys.argv[1]
 
 
 def main():
